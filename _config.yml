@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
+title: mukoshi Homepage
+email: contact@mukoshi.com
 description: Bookmark this to keep an eye on my project updates!
+baserurl: "/blog"
+url: "https://mukoshi.github.io"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
