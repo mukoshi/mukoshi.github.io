@@ -28,3 +28,21 @@ footer {
     bottom: 0;
     width: 99%;
 }
+
+/* Bağlantı stilleri */
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid #8a2be2; /* Mor renk */
+    border-radius: 15px; /* Yuvarlak köşeler */
+    text-decoration: none; /* Alt çizgi kaldırma */
+    color: #8a2be2; /* Mor metin rengi */
+    transition: background-color 0.3s, color 0.3s; /* Geçiş efektleri */
+}
+
+/* Fareyle üzerine gelindiğinde */
+a:hover {
+    background-color: #8a2be2; /* Mor arka plan rengi */
+    color: #fff; /* Beyaz metin rengi */
+}
