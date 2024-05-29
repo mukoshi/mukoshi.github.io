@@ -1,48 +1,61 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 0.5rem;
+    padding: 20px 0;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #8a2be2;
+    text-decoration: none;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #8a2be2;
+    color: #fff;
 }
 
 footer {
     text-align: center;
-    padding: 0.25rem;
-    background-color: #f1f1f1;
-    min-height: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 99%;
-}
-
-/* Bağlantı stilleri */
-a {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
-    border: 2px solid #8a2be2; /* Mor renk */
-    border-radius: 15px; /* Yuvarlak köşeler */
-    text-decoration: none; /* Alt çizgi kaldırma */
-    color: #8a2be2; /* Mor metin rengi */
-    transition: background-color 0.3s, color 0.3s; /* Geçiş efektleri */
-}
-
-/* Fareyle üzerine gelindiğinde */
-a:hover {
-    background-color: #8a2be2; /* Mor arka plan rengi */
-    color: #fff; /* Beyaz metin rengi */
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
 }
